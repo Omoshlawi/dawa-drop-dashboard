@@ -11,9 +11,9 @@ const SideBar = () => {
   return (
     <Stack
       spacing={1}
-        display="flex"
-        flex={1}
-      sx={{ backgroundColor: theme.palette.primary.main }}
+      display="flex"
+      flex={1}
+      sx={{ p: 0, m: 0, width: "100%", backgroundColor: "red" }}
     >
       <Accordion>
         <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
